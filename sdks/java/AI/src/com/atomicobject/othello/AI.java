@@ -15,4 +15,6 @@ public class AI {
 		System.out.println("AI returning canned move for game state - " + state);
 		return moveList.next();
 	}
+
+	
 }
