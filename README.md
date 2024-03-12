@@ -1,4 +1,4 @@
-# AOthello
+# Othello
 
 Welcome to this year's Atomic Accelerator challenge. You'll be creating a bot to play the game of Othello!
 
