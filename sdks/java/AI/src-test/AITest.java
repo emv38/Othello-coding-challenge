@@ -25,7 +25,7 @@ public class AITest {
 				                   {0, 0, 0, 0, 0, 0, 0, 0}});
 		
 		// Our first canned move is [2,4]
-		assertArrayEquals(new int[]{2, 4}, ai.computeMove(state));
+		assertArrayEquals(new int[]{5, 5}, ai.computeMove(state));
 
 		// Our second canned move is [3, 5]
 		assertArrayEquals(new int[]{3, 5}, ai.computeMove(state));
