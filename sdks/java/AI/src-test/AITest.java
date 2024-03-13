@@ -1,6 +1,8 @@
 //import static org.junit.Assert.*;
 
 //import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
 
 import com.atomicobject.othello.AI;
 import com.atomicobject.othello.GameState;

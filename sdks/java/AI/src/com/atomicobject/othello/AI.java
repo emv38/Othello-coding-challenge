@@ -12,7 +12,7 @@ public class AI {
 	}
 
 	public int[] computeMove(GameState state) {
-		System.out.println("AI returning canned move for game state - " + state);
+		System.out.println("AI is gonna return canned move for game state - " + state);
 		return moveList.next();
 		
 		//return a hardcoded array ie - [0,0]
