@@ -14,6 +14,8 @@ public class AI {
 	public int[] computeMove(GameState state) {
 		System.out.println("AI returning canned move for game state - " + state);
 		return moveList.next();
+		
+		//return a hardcoded array ie - [0,0]
 		//check whether board has any valid moves
 
 		

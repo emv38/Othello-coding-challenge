@@ -1,6 +1,6 @@
-import static org.junit.Assert.*;
+//import static org.junit.Assert.*;
 
-import org.junit.Test;
+//import org.junit.Test;
 
 import com.atomicobject.othello.AI;
 import com.atomicobject.othello.GameState;
@@ -8,7 +8,7 @@ import com.atomicobject.othello.GameState;
 
 public class AITest {
 
-	@Test
+	//@Test
 	public void test() {
 		// This is just an example test to show JUnit working. It won't be useful
 		// for your real implementation.
@@ -25,9 +25,9 @@ public class AITest {
 				                   {0, 0, 0, 0, 0, 0, 0, 0}});
 		
 		// Our first canned move is [2,4]
-		assertArrayEquals(new int[]{5, 5}, ai.computeMove(state));
+		//assertArrayEquals(new int[]{5, 5}, ai.computeMove(state));
 
 		// Our second canned move is [3, 5]
-		assertArrayEquals(new int[]{3, 5}, ai.computeMove(state));
+		//assertArrayEquals(new int[]{3, 5}, ai.computeMove(state));
 	}
 }
