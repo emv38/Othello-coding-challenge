@@ -1,6 +1,6 @@
-//import static org.junit.Assert.*;
+import static org.junit.Assert.*;
 
-//import org.junit.Test;
+import org.junit.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 
@@ -10,7 +10,7 @@ import com.atomicobject.othello.GameState;
 
 public class AITest {
 
-	//@Test
+	@Test
 	public void test() {
 		// This is just an example test to show JUnit working. It won't be useful
 		// for your real implementation.

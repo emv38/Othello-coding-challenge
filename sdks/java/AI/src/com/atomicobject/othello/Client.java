@@ -15,9 +15,9 @@ public class Client {
 	Gson gson = new Gson();
 	AI ai;
 
-	public Client(Socket socket, int[][] moves) {
+	public Client(Socket socket) {
 		try {
-			ai = new AI(moves);
+			ai = new AI();
 			input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 			out = new OutputStreamWriter(socket.getOutputStream());
 		} catch (IOException e) {
