@@ -49,7 +49,7 @@ public class Client {
 
 	private void respondWithMove(int[] move) throws IOException {
 		String encoded = gson.toJson(move);
-		System.out.println("Sending response af: " + encoded);
+		System.out.println("Sending response: " + encoded);
 		out.write(encoded);
 		out.write("\n");
 		out.flush();
